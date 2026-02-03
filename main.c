@@ -11,8 +11,8 @@
 #include <string.h>
 
 // Get the lookup tables of elemental symbols and names
-#include "symbols.h"
-#include "names.h"
+#include "symbols.c"
+#include "names.c"
 
 // Define a boolean type for convenience
 typedef enum {false, true} bool;
