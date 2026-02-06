@@ -1,9 +1,9 @@
 # Makefile for the elem program
 
-# compile the binary
+# Compile the elem binary
 elem: main.c symbols.c names.c
 	gcc main.c -o elem
 
-# delete the binary
+# Delete the elem binary
 clean:
 	rm -f elem
